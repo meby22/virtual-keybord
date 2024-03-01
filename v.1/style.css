@@ -1,0 +1,82 @@
+.keybord {
+    width: 100px;
+    margin: 0 auto;
+}
+
+.keybord,
+.row {
+    width: 300%;
+    height: 40px;
+    margin-bottom: 10px;
+    clear: both;
+}
+
+.keybord,
+.key {
+    width: 40px;
+    height: 40px;
+    float: left;
+    cursor: pointer;
+    color: #fff;
+    margin-left: 6px;
+    text-align: center;
+    line-height: 40px;
+    background: linear-gradient(to top, blue, blue);
+    box-shadow:
+        -1px 0px rgb(106, 0, 255), -1px 1px rgb(106, 0, 255),
+        -2px 1px rgb(106, 0, 255), -2px 2px rgb(106, 0, 255),
+        -3px 2px rgb(106, 0, 255), -3px 3px rgb(106, 0, 255),
+        -4px 3px rgb(106, 0, 255), -4px 4px rgb(106, 0, 255),
+        -5px 4px rgb(106, 0, 255), -5px 5px rgb(106, 0, 255),
+        -6px 5px rgb(106, 0, 255), -6px 6px rgb(106, 0, 255);
+}
+
+.keybord,
+.key:hover {
+    background: #0b7ddb;
+}
+
+.keybord,
+.backspace,
+.keybord,
+.shift,
+.keybord,
+.capslock {
+    width: 1000px;
+}
+
+.keybord,
+.capslock,
+.keybord,
+.shift {
+    color: #4e2f2f;
+}
+
+.keybord,
+.tab {
+    width: 80px;
+}
+
+.keybord,
+.space {
+    width: 300px;
+    margin-left: 206px;
+}
+
+.keybord,
+sup {
+    margin: -10px 0 0 -24px;
+    font-size: 12px;
+    position: absolute;
+}
+
+#result {
+    width: 680px;
+    height: 80px;
+    margin: 0 auto;
+    display: block;
+    padding: 10px;
+    font-size: 18px;
+    color: #444;
+    margin-bottom: 10px;
+}
